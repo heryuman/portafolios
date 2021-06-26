@@ -1,0 +1,204 @@
+ *{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+ 
+}
+body{
+
+  background-image: url("https://image.freepik.com/vector-gratis/fondo-conexion-red-degradado_23-2148865392.jpg");
+}
+
+.cabecera{
+
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.descripcion{
+
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #000;
+  height: 450px;
+  width: 950px;
+  margin-top:100px;
+  margin-left: 100px;
+  margin-bottom:40px;
+  border-radius: 20px;
+  border: rgb(204, 173, 35) 5px double;
+  box-shadow: 3px 4px 55px 0 rgb(228, 228, 228) ;
+  z-index: -100;
+  opacity: 0.88;
+
+}
+
+.divfotoPerfil{
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #F8C807;
+  height:450px;
+  width: 380px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 950px;
+  margin-bottom: 40px;
+  
+  box-shadow: 3px 4px 55px 0 rgb(228, 228, 228) ;
+
+}
+
+.descripcion h2{
+
+  color: #fff;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.descripcion h1{
+ text-align: center;
+  color: #F8C807;
+}
+
+.descripcion img{
+
+  height: 100px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.divfotoPerfil img{
+
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  margin-left: -90px;
+  margin-top: 25px;
+  border-radius: 100%;
+}
+
+
+.sobremi{
+  position: relative;
+  background: #000;
+  opacity: .88;
+  width: 150px;
+  height: 100px;
+  display: block;
+  margin-left: 615px;
+  border-radius: 15px;
+  font-size: 1px;
+  text-align: center;
+  border: rgb(204, 173, 35) 5px double;
+  transition: all 1s;
+  
+}
+
+.sobremi:hover{
+
+  width: 400px;
+  height: 250px;
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.sobremi h2{
+
+  color: #fff;
+  padding: 25px;
+}
+
+
+.contProyectos{
+  box-sizing: border-box;
+  display: block;
+ 
+  margin: 40px;
+ 
+
+}
+
+.proyecto{
+
+  display: inline-block;
+  width: 285px;
+  height: 385px;
+  background: #000;
+  border: rgb(204, 173, 35) 5px double;
+  margin-left: 60px;
+  border-radius: 15px;
+  transition: all 1s;
+
+}
+
+.imgProyecto {
+
+  width: 270px;
+  height: 370px;
+  transition: all 1s;
+
+
+}
+
+.imgProyecto img {
+
+  width: 270px;
+  height: 370px;
+  object-fit: scale-down;
+
+  transition: all 1s;
+
+}
+
+.descProyecto{
+  position: relative;
+  margin-top:25px ;
+  display: block;  
+  width: 285px;
+
+  background: #000;
+  border-radius: 15px;
+  border: rgb(204, 173, 35) 5px double;
+  font-size: 15px;
+  color: #fff;
+  transition: all 1s;
+
+
+}
+
+/*aplicando hover*/
+
+.proyecto:hover{
+
+  
+  width: 385px;
+  height: 485px;
+ 
+}
+
+.imgProyecto:hover {
+
+  width: 370px;
+  height: 470px;
+
+
+
+}
+
+.imgProyecto img:hover {
+
+  width: 370px;
+  height: 470px;
+
+
+
+
+}
+
+
+
+

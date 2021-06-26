@@ -1,0 +1,234 @@
+*{
+    font-family: 'Roboto',sans-serif;
+   
+   
+    
+}
+body{
+
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-conexion-red-degradado_23-2148865392.jpg")
+    
+}
+.head-container div {
+    display: inline-block;
+    height: 400px;
+    box-sizing: border-box;
+    border: rgb(204, 173, 35) 5px double;
+    
+  
+    
+    
+
+}
+.cuerpoProyectos{
+ position: relative;
+
+
+}
+
+.description-container{
+
+    position: absolute;
+    background: #090505;
+    color:#fff;
+    width: 75%;
+    opacity: .80;
+    padding-top: 60px;
+    padding-left: 150px;
+    box-shadow: 3px 4px 55px 0 rgb(228, 228, 228) ;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom:35px ;
+    border-radius: 15px;
+
+ 
+}
+    
+.description-container h1{
+    color: #F8C807;
+    
+   
+}
+
+.img-container {
+
+    position: relative;
+    background: #f8c807;
+    width:25%;
+    float: right;
+    box-shadow: 3px 4px 55px 0 rgb(228, 228, 228) ;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    opacity: 0.95;
+   
+   
+}
+
+.head-container img{
+
+    height: 350px;
+    width: 250px;
+    position: relative;
+    margin-left: -90px;
+    margin-top: 25px;
+    border-radius: 100%;
+}
+
+.about{
+
+  
+    margin-top: 485px;
+    background: #000000;
+    height: 150px;
+    width: 150px;
+   
+    margin-left: 85px;
+    padding: 8px;
+    transition: all 0.5s;
+    color: #DA57E3;
+    font-size: 0.1px;
+    border-radius: 15px;
+    opacity: 0.75;
+    box-sizing: border-box;
+    display: inline-block;
+    border: rgb(204, 173, 35) 5px double;
+
+
+}
+
+
+.about h1
+{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.about:active{
+
+    width: 800px;
+    color: #fff;
+    font-size: 20px;
+    height: 225px;
+    padding: 25px;
+    padding-bottom: 25px;
+    opacity: 0.7;
+
+    
+
+
+}
+
+.myProyectsHead{
+
+    background: #F8C807;
+    margin-left: 85px;
+    margin-top:25px;
+    margin-right: 85px;
+    padding: 8px; ;
+   
+    border-radius: 15px;
+    opacity: .80;
+    transition: all 1s;
+   
+   
+   
+    
+}
+.myProyectsHead div h1{
+
+    display: inline-block;
+}
+
+.myProyectsHead div img{
+
+    border-radius: 15px;
+    height: 100px;
+    width: 200px;
+    float: right;
+    object-fit: scale-down;
+   
+}
+
+.myProyectsHead-contProyects{
+   
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    background: #000000;
+    border-radius: 15px;
+    color:#F8C807;
+    margin-top: 35px;
+    box-sizing: border-box;
+    top: 25;
+
+}
+
+.myProyectsHead-contProyects:hover{
+
+    background: black;
+    width: 270px;
+    height: 500px;
+    transition: all 3s;
+
+   
+
+}
+
+.contImg{
+  
+    position: relative;
+    box-sizing: border-box;
+    width: 270px;
+    height: 370px;
+    padding: 10px;
+
+  
+  
+    
+    
+
+
+
+}
+
+.myProyectsHead-contProyects div img{
+
+    width: 250px;
+    height: 350px;
+    float: left;
+    object-fit: contain;
+    border: rgb(204, 173, 35) 5px double;
+    
+
+}
+
+.descripcion{
+
+    width: 250px;
+    height: 125px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+span{
+
+    color:#F8C807;
+
+    font-size:20px;
+ 
+    margin-top: 5px;
+    font-style:italic;
+    padding:15px;
+    text-align:center;
+}
+
+.myProyectsHead-contProyects p{
+
+    color: #F8C807;
+    font-size: 15px;
+    
+    
+    
+}
