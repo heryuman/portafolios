@@ -5,9 +5,24 @@
  
 }
 body{
+  background-image: url("https://fondosmil.com/fondo/22132.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgb(6, 6, 31);
 
-  background-image: url("https://image.freepik.com/vector-gratis/fondo-conexion-red-degradado_23-2148865392.jpg");
 }
+
+
+.div-body{
+  
+
+}
+.div-body-responsive{
+
+  display: none;
+}
+
 
 .cabecera{
 
@@ -25,7 +40,7 @@ body{
   height: 450px;
   width: 950px;
   margin-top:100px;
-  margin-left: 100px;
+  margin-left: 150px;
   margin-bottom:40px;
   border-radius: 20px;
   border: rgb(204, 173, 35) 5px double;
@@ -88,7 +103,7 @@ body{
   width: 150px;
   height: 100px;
   display: block;
-  margin-left: 615px;
+  margin-left: 635px;
   border-radius: 15px;
   font-size: 1px;
   text-align: center;
@@ -97,14 +112,7 @@ body{
   
 }
 
-.sobremi:hover{
 
-  width: 400px;
-  height: 250px;
-  font-size: 20px;
-  color: #fff;
-
-}
 
 .sobremi h2{
 
@@ -117,8 +125,8 @@ body{
   box-sizing: border-box;
   display: block;
  
-  margin: 40px;
- 
+
+  margin-left: 200px;
 
 }
 
@@ -135,12 +143,29 @@ body{
 
 }
 
+.titulo{
+ 
+  color: #fff;
+  margin-left: 290px;
+  font-weight: 600;
+  font-size: 50px;
+  padding: 50px;
+  background: #000;
+  border:  rgb(204, 173, 35) 5px double;
+  width: 475px;
+  height: 100;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
 .imgProyecto {
 
   width: 270px;
   height: 370px;
   transition: all 1s;
-
+  text-shadow: ;
 
 }
 
@@ -172,6 +197,16 @@ body{
 
 /*aplicando hover*/
 
+.sobremi:hover{
+
+  width: 400px;
+  height: 250px;
+  font-size: 20px;
+  color: #fff;
+  text-align: justify;
+
+}
+
 .proyecto:hover{
 
   
@@ -199,6 +234,134 @@ body{
 
 }
 
+
+
+/*area responsive*/
+@media only screen and  (max-width:500px){
+
+.div-body-responsive{
+
+  display: block;
+
+}
+.cabecera{
+  display: none;
+}
+.div-body{
+
+  display: none;
+}
+
+body{
+  background-image: none;
+  background-color: rgb(6, 6, 31);
+}
+.sobremi-responsive{
+  position: relative;
+  background: #000;
+  opacity: .88;
+  width: 150px;
+  height: 100px;
+  display: block;
+  margin-left: 45px;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  border: rgb(204, 173, 35) 5px double;
+  padding: 10px;
+ 
+
+  width: 325px;
+  height: 300px;
+  font-size: 15px;
+  color: #fff;
+
+  
+}
+
+
+
+.sobremi-responsive h2{
+
+  color: #fff;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.contProyectos-responsive{
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  margin-bottom: 50px;
+  margin-left: 23px;
+ 
+ 
+
+}
+
+.proyecto-responsive{
+  position: relative;
+  display: inline-block;
+  width: 285px;
+  height: 385px;
+  background: #000;
+  border: rgb(204, 173, 35) 5px double;
+  margin-left: 50px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+
+}
+
+.imgProyecto-responsive {
+
+  width: 270px;
+  height: 370px;
+  
+
+
+}
+
+.imgProyecto-responsive img {
+
+  width: 270px;
+  height: 370px;
+  object-fit: scale-down;
+
+
+}
+
+.descProyecto-responsive{
+  position: relative;
+  margin-top:28px ;
+  display: block;  
+  width: 285px;
+  margin-bottom: 50px;
+  background: #000;
+  border-radius: 15px;
+  border: rgb(204, 173, 35) 5px double;
+  font-size: 15px;
+  color: #fff;
+  
+
+
+}
+
+.title-responsive h1{
+
+  color: #fff;
+  text-align: center;
+  margin-left: -10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+}
 
 
 
